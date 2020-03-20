@@ -1,10 +1,10 @@
 {
-    "name": "mileschou/composer-template",
-    "description": "The template for create Composer project",
+    "name": "mileschou/http-client-helper",
+    "description": "The test helper for HTTP client.",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "template"
+        "http-client"
     ],
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MilesChou\\Template\\": "src"
+            "MilesChou\\HttpClientHelper\\": "src"
         }
     },
     "autoload-dev": {

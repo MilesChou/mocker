@@ -1,17 +1,9 @@
-# Composer Template
+# HTTP Client Helper
 
-[![Build Status][travis-svg]][travis-link]
-[![Use this template](https://img.shields.io/badge/GitHub-Use_this_template-green.svg)](https://github.com/MilesChou/composer-template/generate)
+[![Build Status](https://travis-ci.com/MilesChou/mocker.svg?branch=master)](https://travis-ci.com/MilesChou/mocker)
+[![codecov](https://codecov.io/gh/MilesChou/mocker/branch/master/graph/badge.svg)](https://codecov.io/gh/MilesChou/mocker)
+[![Latest Stable Version](https://poser.pugx.org/MilesChou/mocker/v/stable)](https://packagist.org/packages/MilesChou/mocker)
+[![Total Downloads](https://poser.pugx.org/MilesChou/mocker/d/total.svg)](https://packagist.org/packages/MilesChou/mocker)
+[![License](https://poser.pugx.org/MilesChou/mocker/license)](https://packagist.org/packages/MilesChou/mocker)
 
-The template for create Composer library.
-
-Remember remove or modify following information:
-
-* [ ] Namespace in [`composer.json`](/composer.json) and files in [`src`](/src) or [`tests`](/tests) directories
-* [ ] Project name and description and author name in [`composer.json`](/composer.json)
-* [ ] Travis CI setting in [`.travis.yml`](/.travis.yml)
-* [ ] The badges links and this checklist in [README.md](/README.md) file
-* [ ] Author in [LICENSE](/LICENSE) file
-
-[travis-svg]: https://travis-ci.com/MilesChou/composer-template.svg?branch=master
-[travis-link]: https://travis-ci.com/MilesChou/composer-template
+The mock helper for HTTP client.
