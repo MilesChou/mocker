@@ -16,10 +16,13 @@
     "require": {
         "php": ">=7.1"
     },
+    "suggest": {
+        "guzzlehttp/guzzle": "Require ^6 if need use Guzzle MockerBuilder",
+        "php-http/guzzle6-adapter": "Require ^2 if need use Guzzle with PSR-18 adapter"
+    },
     "require-dev": {
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.0",
-        "http-interop/http-factory-guzzle": "^1.0",
         "php-http/guzzle6-adapter": "^2.0",
         "phpstan/phpstan": "^0.12.18",
         "phpunit/phpunit": "^7.5 | ^8 | ^9",
