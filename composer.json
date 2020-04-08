@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "mileschou/psr": "^1.1"
     },
     "suggest": {
         "guzzlehttp/guzzle": "Require ^6 if need use Guzzle MockerBuilder",
