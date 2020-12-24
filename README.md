@@ -1,6 +1,6 @@
 # Mocker for HTTP Client 
 
-[![Build Status](https://travis-ci.com/MilesChou/mocker.svg?branch=master)](https://travis-ci.com/MilesChou/mocker)
+![tests](https://github.com/MilesChou/mocker/workflows/tests/badge.svg)
 [![codecov](https://codecov.io/gh/MilesChou/mocker/branch/master/graph/badge.svg)](https://codecov.io/gh/MilesChou/mocker)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/47fcc79753df4b1185ae85f4014c4699)](https://www.codacy.com/manual/MilesChou/mocker)
 [![Latest Stable Version](https://poser.pugx.org/MilesChou/mocker/v/stable)](https://packagist.org/packages/MilesChou/mocker)
