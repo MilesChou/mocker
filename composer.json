@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
+        "php": "^7.1 | ^8.0",
         "mileschou/psr": "^1.1"
     },
     "suggest": {
@@ -23,11 +23,10 @@
     },
     "require-dev": {
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^6.1",
         "php-http/guzzle6-adapter": "^2.0",
-        "phpstan/phpstan": "^0.12.18",
         "phpunit/phpunit": "^7.5 | ^8 | ^9",
-        "squizlabs/php_codesniffer": "^3.5"
+        "squizlabs/php_codesniffer": "^3.5.7"
     },
     "autoload": {
         "psr-4": {
