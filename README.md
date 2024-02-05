@@ -14,7 +14,7 @@ The mock helper for HTTP client.
 Support PHP version:
 
 - 1.x Support 7.1 ~ 8.0
-- 2.x Support 8.1+
+- 2.x Support 8.0 ~ 8.3
 
 Use Composer to install.
 
