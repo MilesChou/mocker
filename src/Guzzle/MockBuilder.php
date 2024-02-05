@@ -7,7 +7,6 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Response;
-use Http\Adapter\Guzzle6\Client as Psr18Client;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
 use Throwable;
@@ -60,7 +59,7 @@ class MockBuilder
      */
     public static function createPsr18Client($responses = [], &$history = []): ClientInterface
     {
-        return new Psr18Client(self::createClient($responses, $history));
+        return self::createClient($responses, $history);
     }
 
     /**

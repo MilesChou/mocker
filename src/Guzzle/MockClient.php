@@ -4,6 +4,7 @@ namespace MilesChou\Mocker\Guzzle;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Promise\PromiseInterface;
 use MilesChou\Psr\Http\Message\Testing\TestRequest;
 use OutOfBoundsException;
 use Psr\Http\Message\RequestInterface;
@@ -170,7 +171,7 @@ class MockClient implements ClientInterface
     /**
      * @inheritDoc
      */
-    public function send(RequestInterface $request, array $options = [])
+    public function send(RequestInterface $request, array $options = []): ResponseInterface
     {
         $this->build();
 
@@ -180,7 +181,7 @@ class MockClient implements ClientInterface
     /**
      * @inheritDoc
      */
-    public function sendAsync(RequestInterface $request, array $options = [])
+    public function sendAsync(RequestInterface $request, array $options = []): PromiseInterface
     {
         $this->build();
 
@@ -190,7 +191,7 @@ class MockClient implements ClientInterface
     /**
      * @inheritDoc
      */
-    public function request($method, $uri, array $options = [])
+    public function request($method, $uri, array $options = []): ResponseInterface
     {
         $this->build();
 
@@ -200,7 +201,7 @@ class MockClient implements ClientInterface
     /**
      * @inheritDoc
      */
-    public function requestAsync($method, $uri, array $options = [])
+    public function requestAsync($method, $uri, array $options = []): PromiseInterface
     {
         $this->build();
 
