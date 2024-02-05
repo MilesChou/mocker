@@ -13,7 +13,7 @@ The mock helper for HTTP client.
 
 Support PHP version:
 
-- 1.x Support PHP 7.1 ~ 8.0 And Guzzle 6.1+
+- 1.x Support PHP 7.1 ~ 8.2 And Guzzle 6.1+
 - 2.x Support PHP 8.0 ~ 8.3 And Guzzle 7.0+
 
 Use Composer to install.
